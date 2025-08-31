@@ -15,17 +15,12 @@ Play against a friend locally and see who wins!
 
 ✅ Responsive layout (works on desktop & mobile)
 
-🖼️ Screenshot
-
-(Optional: Add a screenshot of your game UI here)
-
-![Tic Tac Toe Screenshot](screenshot.png)
 
 🚀 How to Run
 
 Clone the repository:
 
-git clone https://github.com/your-username/tic-tac-toe.git
+        git clone https://github.com/your-username/tic-tac-toe.git
 
 
 Navigate to the project folder:
