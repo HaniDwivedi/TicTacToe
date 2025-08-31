@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Consistent sizing */
+}
+
+.container {
+  height: 60vh;
+  width: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 17vh;
+  left: 30vw;
+  border: 2px solid green;
+  gap: 2px;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
+  text-align: center;
+  font-size: 8vmin;
+  margin: 1px;
+  border: 1px solid black;
+}
+
+.box:hover {
+  border: 2px solid red;
+}
+
+h1 {
+  font-size: 2rem;
+  height: 10vh;
+  width: 30vw;
+  color: red;
+  text-shadow: 2px 2px 5px black;
+  text-align: center;
+  background-color: rgba(47, 228, 173, 0.74);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 3vh;
+  left: 30vw;
+}
+
+.resetbtn {
+  position: absolute;
+  top: 40vh;
+  left: 70vw;
+  font-size: 1.2rem;
+  height: 8vh;
+  width: 15vw;
+  background-color: rgba(18, 156, 180, 0.897);
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.result {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(172, 147, 11, 0.9);
+  position: absolute;
+  top: 35vh;
+  left: 30vw;
+  font-weight: 800;
+  font-size: 8rem;
+  visibility: hidden;
+}
+
+.champ {
+  height: 30px;
+  width: 400px;
+  background-color: rgb(230, 233, 46);
+  position: absolute;
+  top: 80vh;
+  left: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
